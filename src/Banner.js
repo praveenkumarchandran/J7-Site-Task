@@ -12,7 +12,7 @@ const Banner = () => {
   return (
     <div className="banner">
       <div className="banner-content">
-      <img src={carouselImage} alt="Carousel Image" />
+      <img src={carouselImage} alt="Carousel Image" /><br />
         <h1>Exclusive Deals Just for You!</h1>
         <p>Shop our latest collection and save big on your favorite items.</p>
         <button onClick={goToShop} className="btn-shop-now">Shop Now</button>

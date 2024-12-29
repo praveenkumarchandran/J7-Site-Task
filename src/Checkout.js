@@ -6,7 +6,7 @@ const Checkout = () => {
     const location = useLocation();
     const { selectedItems, selectedItemsTotal } = location.state || {}; // Get data from Cart page
 
-    // If no selected items, show a message
+
     if (!selectedItems || Object.keys(selectedItems).length === 0) {
         return <Typography variant="h5" align="center">Your cart is empty. Please select items to proceed.</Typography>;
     }

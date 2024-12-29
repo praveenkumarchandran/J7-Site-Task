@@ -103,7 +103,7 @@ const Cart = () => {
                 {/* Display selected items total */}
                 <div className="col-auto ms-auto">
                     <h2>Total price: ${formatPrice(cartTotal)}</h2>
-                    <h3>Selected Items Total: ${formatPrice(selectedItemsTotal)}</h3>
+
                 </div>
 
                 <div className="col-auto">
